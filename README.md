@@ -1,12 +1,15 @@
 📈 Trading Platform – Full-Stack Simulation
 A full-stack trading platform simulation built to demonstrate real-world trading workflows including order placement, position management, and PnL calculation, with a modern React UI and a .NET backend.
 This project is not a toy UI — it follows real backend-driven flows similar to institutional trading systems.
+<img width="1918" height="1001" alt="UI IMAGE" src="https://github.com/user-attachments/assets/3fc71af0-190c-4ab7-84a1-12047662e404" />
 
 🚀 Tech Stack
 Frontend
 React + TypeScript
 Vite
 Axios
+
+
 Modern component-based UI
 Reason: fast development, type safety, clean separation of concerns.
 
@@ -105,9 +108,12 @@ http://localhost:5174
 
 This project was built to:
 
-Demonstrate full-stack engineering skills
+Demonstrate full-stack engineering skills  
+
 Show real API-driven UI integration
+
 Practice clean architecture & typing
+
 Provide a portfolio-ready trading system simulation
 
 ⚠️ This is a simulation — no real market connectivity or financial execution.
@@ -126,5 +132,4 @@ Full-Stack / Backend-leaning Engineer
 Master’s in Computer Science
 
 ⭐ If you like this project
-
 Star ⭐ the repository and feel free to fork or explore.
