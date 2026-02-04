@@ -1,0 +1,14 @@
+# Node
+node_modules/
+dist/
+
+# .NET
+bin/
+obj/
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log

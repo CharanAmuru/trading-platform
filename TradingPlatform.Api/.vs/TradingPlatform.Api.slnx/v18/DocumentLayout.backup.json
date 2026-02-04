@@ -1,0 +1,451 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Infrastructure\\Migrations\\20260204130622_FixDecimalPrecision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33F3FDBC-CB1A-86D2-E8F2-656C86808C39}|..\\TradingPlatform.Infrastructure\\TradingPlatform.Infrastructure.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.infrastructure\\persistence\\tradingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98154075-B8E0-1D49-2504-507F82050277}|TradingPlatform.Api.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98154075-B8E0-1D49-2504-507F82050277}|TradingPlatform.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8B515C-7678-F816-B45A-A87923BC6EBA}|..\\TradingPlatform.Worker\\TradingPlatform.Worker.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.worker\\workers\\executionworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33F3FDBC-CB1A-86D2-E8F2-656C86808C39}|..\\TradingPlatform.Infrastructure\\TradingPlatform.Infrastructure.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.infrastructure\\repositories\\positionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7D28E7E-331B-FD41-9BCE-8F2F26144B84}|..\\TradingPlatform.Application\\TradingPlatform.Application.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.application\\dtos\\positionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7D28E7E-331B-FD41-9BCE-8F2F26144B84}|..\\TradingPlatform.Application\\TradingPlatform.Application.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.application\\interfaces\\ipositionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33F3FDBC-CB1A-86D2-E8F2-656C86808C39}|..\\TradingPlatform.Infrastructure\\TradingPlatform.Infrastructure.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.infrastructure\\migrations\\20260204115725_initialtrading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DC13F4-656C-55EF-9C8C-8DB9CF140077}|..\\TradingPlatform.Domain\\TradingPlatform.Domain.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98154075-B8E0-1D49-2504-507F82050277}|TradingPlatform.Api.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98154075-B8E0-1D49-2504-507F82050277}|TradingPlatform.Api.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7D28E7E-331B-FD41-9BCE-8F2F26144B84}|..\\TradingPlatform.Application\\TradingPlatform.Application.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.application\\commands\\placeorder\\placeorderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7D28E7E-331B-FD41-9BCE-8F2F26144B84}|..\\TradingPlatform.Application\\TradingPlatform.Application.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.application\\commands\\placeorder\\placeordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7D28E7E-331B-FD41-9BCE-8F2F26144B84}|..\\TradingPlatform.Application\\TradingPlatform.Application.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.application\\dtos\\placeorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7D28E7E-331B-FD41-9BCE-8F2F26144B84}|..\\TradingPlatform.Application\\TradingPlatform.Application.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.application\\interfaces\\imarketpriceprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7D28E7E-331B-FD41-9BCE-8F2F26144B84}|..\\TradingPlatform.Application\\TradingPlatform.Application.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.application\\dtos\\createorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8B515C-7678-F816-B45A-A87923BC6EBA}|..\\TradingPlatform.Worker\\TradingPlatform.Worker.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.worker\\services\\positionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8B515C-7678-F816-B45A-A87923BC6EBA}|..\\TradingPlatform.Worker\\TradingPlatform.Worker.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DC13F4-656C-55EF-9C8C-8DB9CF140077}|..\\TradingPlatform.Domain\\TradingPlatform.Domain.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.domain\\entities\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98154075-B8E0-1D49-2504-507F82050277}|TradingPlatform.Api.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.api\\controllers\\positionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98154075-B8E0-1D49-2504-507F82050277}|TradingPlatform.Api.csproj|solutionrelative:controllers\\positionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33F3FDBC-CB1A-86D2-E8F2-656C86808C39}|..\\TradingPlatform.Infrastructure\\TradingPlatform.Infrastructure.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.infrastructure\\pricing\\inmemorymarketpriceprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DC13F4-656C-55EF-9C8C-8DB9CF140077}|..\\TradingPlatform.Domain\\TradingPlatform.Domain.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.domain\\entities\\executionjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7D28E7E-331B-FD41-9BCE-8F2F26144B84}|..\\TradingPlatform.Application\\TradingPlatform.Application.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.application\\dtos\\orderdetailsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33F3FDBC-CB1A-86D2-E8F2-656C86808C39}|..\\TradingPlatform.Infrastructure\\TradingPlatform.Infrastructure.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.infrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7D28E7E-331B-FD41-9BCE-8F2F26144B84}|..\\TradingPlatform.Application\\TradingPlatform.Application.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.application\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7D28E7E-331B-FD41-9BCE-8F2F26144B84}|..\\TradingPlatform.Application\\TradingPlatform.Application.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.application\\interfaces\\iexecutionjobwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33F3FDBC-CB1A-86D2-E8F2-656C86808C39}|..\\TradingPlatform.Infrastructure\\TradingPlatform.Infrastructure.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.infrastructure\\queue\\sqlexecutionqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33F3FDBC-CB1A-86D2-E8F2-656C86808C39}|..\\TradingPlatform.Infrastructure\\TradingPlatform.Infrastructure.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.infrastructure\\queue\\inmemoryexecutionqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33F3FDBC-CB1A-86D2-E8F2-656C86808C39}|..\\TradingPlatform.Infrastructure\\TradingPlatform.Infrastructure.csproj|c:\\users\\charanamuru\\source\\repos\\tradingplatform.infrastructure\\migrations\\20260203121850_addpositions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20260204130622_FixDecimalPrecision.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Infrastructure\\Migrations\\20260204130622_FixDecimalPrecision.cs",
+              "RelativeDocumentMoniker": "..\\TradingPlatform.Infrastructure\\Migrations\\20260204130622_FixDecimalPrecision.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Infrastructure\\Migrations\\20260204130622_FixDecimalPrecision.cs",
+              "RelativeToolTip": "..\\TradingPlatform.Infrastructure\\Migrations\\20260204130622_FixDecimalPrecision.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T13:06:23.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20260204115725_InitialTrading.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Infrastructure\\Migrations\\20260204115725_InitialTrading.cs",
+              "RelativeDocumentMoniker": "..\\TradingPlatform.Infrastructure\\Migrations\\20260204115725_InitialTrading.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Infrastructure\\Migrations\\20260204115725_InitialTrading.cs",
+              "RelativeToolTip": "..\\TradingPlatform.Infrastructure\\Migrations\\20260204115725_InitialTrading.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T11:57:25.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IPositionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Application\\Interfaces\\IPositionRepository.cs",
+              "RelativeDocumentMoniker": "..\\TradingPlatform.Application\\Interfaces\\IPositionRepository.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Application\\Interfaces\\IPositionRepository.cs",
+              "RelativeToolTip": "..\\TradingPlatform.Application\\Interfaces\\IPositionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T12:02:35.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PositionResponse.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Application\\DTOs\\PositionResponse.cs",
+              "RelativeDocumentMoniker": "..\\TradingPlatform.Application\\DTOs\\PositionResponse.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Application\\DTOs\\PositionResponse.cs",
+              "RelativeToolTip": "..\\TradingPlatform.Application\\DTOs\\PositionResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T12:01:59.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PositionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Infrastructure\\Repositories\\PositionRepository.cs",
+              "RelativeDocumentMoniker": "..\\TradingPlatform.Infrastructure\\Repositories\\PositionRepository.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Infrastructure\\Repositories\\PositionRepository.cs",
+              "RelativeToolTip": "..\\TradingPlatform.Infrastructure\\Repositories\\PositionRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T12:54:01.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExecutionWorker.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Worker\\Workers\\ExecutionWorker.cs",
+              "RelativeDocumentMoniker": "..\\TradingPlatform.Worker\\Workers\\ExecutionWorker.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Worker\\Workers\\ExecutionWorker.cs",
+              "RelativeToolTip": "..\\TradingPlatform.Worker\\Workers\\ExecutionWorker.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAswGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T13:30:08.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T03:42:32.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TradingDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Infrastructure\\Persistence\\TradingDbContext.cs",
+              "RelativeDocumentMoniker": "..\\TradingPlatform.Infrastructure\\Persistence\\TradingDbContext.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Infrastructure\\Persistence\\TradingDbContext.cs",
+              "RelativeToolTip": "..\\TradingPlatform.Infrastructure\\Persistence\\TradingDbContext.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAmwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T10:11:46.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "..\\TradingPlatform.Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "..\\TradingPlatform.Domain\\Entities\\Order.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwC0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T09:16:00.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Api\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Api\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T09:52:23.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlaceOrderHandler.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Application\\Commands\\PlaceOrder\\PlaceOrderHandler.cs",
+              "RelativeDocumentMoniker": "..\\TradingPlatform.Application\\Commands\\PlaceOrder\\PlaceOrderHandler.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Application\\Commands\\PlaceOrder\\PlaceOrderHandler.cs",
+              "RelativeToolTip": "..\\TradingPlatform.Application\\Commands\\PlaceOrder\\PlaceOrderHandler.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T07:03:44.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PlaceOrderCommand.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Application\\Commands\\PlaceOrder\\PlaceOrderCommand.cs",
+              "RelativeDocumentMoniker": "..\\TradingPlatform.Application\\Commands\\PlaceOrder\\PlaceOrderCommand.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Application\\Commands\\PlaceOrder\\PlaceOrderCommand.cs",
+              "RelativeToolTip": "..\\TradingPlatform.Application\\Commands\\PlaceOrder\\PlaceOrderCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T09:51:51.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateOrderRequest.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Application\\DTOs\\CreateOrderRequest.cs",
+              "RelativeDocumentMoniker": "..\\TradingPlatform.Application\\DTOs\\CreateOrderRequest.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Application\\DTOs\\CreateOrderRequest.cs",
+              "RelativeToolTip": "..\\TradingPlatform.Application\\DTOs\\CreateOrderRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T09:33:31.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlaceOrderRequest.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Application\\DTOs\\PlaceOrderRequest.cs",
+              "RelativeDocumentMoniker": "..\\TradingPlatform.Application\\DTOs\\PlaceOrderRequest.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Application\\DTOs\\PlaceOrderRequest.cs",
+              "RelativeToolTip": "..\\TradingPlatform.Application\\DTOs\\PlaceOrderRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T11:34:27.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Position.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Domain\\Entities\\Position.cs",
+              "RelativeDocumentMoniker": "..\\TradingPlatform.Domain\\Entities\\Position.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Domain\\Entities\\Position.cs",
+              "RelativeToolTip": "..\\TradingPlatform.Domain\\Entities\\Position.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T11:58:21.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IMarketPriceProvider.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Application\\Interfaces\\IMarketPriceProvider.cs",
+              "RelativeDocumentMoniker": "..\\TradingPlatform.Application\\Interfaces\\IMarketPriceProvider.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Application\\Interfaces\\IMarketPriceProvider.cs",
+              "RelativeToolTip": "..\\TradingPlatform.Application\\Interfaces\\IMarketPriceProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T12:53:06.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Worker\\Program.cs",
+              "RelativeDocumentMoniker": "..\\TradingPlatform.Worker\\Program.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Worker\\Program.cs",
+              "RelativeToolTip": "..\\TradingPlatform.Worker\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T12:55:21.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PositionService.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Worker\\Services\\PositionService.cs",
+              "RelativeDocumentMoniker": "..\\TradingPlatform.Worker\\Services\\PositionService.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Worker\\Services\\PositionService.cs",
+              "RelativeToolTip": "..\\TradingPlatform.Worker\\Services\\PositionService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAmwCcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T13:43:00.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PositionsController.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Api\\Controllers\\PositionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PositionsController.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Api\\Controllers\\PositionsController.cs",
+              "RelativeToolTip": "Controllers\\PositionsController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwBAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T12:55:45.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "InMemoryMarketPriceProvider.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Infrastructure\\Pricing\\InMemoryMarketPriceProvider.cs",
+              "RelativeDocumentMoniker": "..\\TradingPlatform.Infrastructure\\Pricing\\InMemoryMarketPriceProvider.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Infrastructure\\Pricing\\InMemoryMarketPriceProvider.cs",
+              "RelativeToolTip": "..\\TradingPlatform.Infrastructure\\Pricing\\InMemoryMarketPriceProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T12:54:46.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20260203121850_AddPositions.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Infrastructure\\Migrations\\20260203121850_AddPositions.cs",
+              "RelativeDocumentMoniker": "..\\TradingPlatform.Infrastructure\\Migrations\\20260203121850_AddPositions.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Infrastructure\\Migrations\\20260203121850_AddPositions.cs",
+              "RelativeToolTip": "..\\TradingPlatform.Infrastructure\\Migrations\\20260203121850_AddPositions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T12:18:50.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Infrastructure\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "..\\TradingPlatform.Infrastructure\\Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Infrastructure\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "..\\TradingPlatform.Infrastructure\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T10:04:25.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrderDetailsResponse.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Application\\DTOs\\OrderDetailsResponse.cs",
+              "RelativeDocumentMoniker": "..\\TradingPlatform.Application\\DTOs\\OrderDetailsResponse.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Application\\DTOs\\OrderDetailsResponse.cs",
+              "RelativeToolTip": "..\\TradingPlatform.Application\\DTOs\\OrderDetailsResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T10:05:15.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ExecutionJob.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Domain\\Entities\\ExecutionJob.cs",
+              "RelativeDocumentMoniker": "..\\TradingPlatform.Domain\\Entities\\ExecutionJob.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Domain\\Entities\\ExecutionJob.cs",
+              "RelativeToolTip": "..\\TradingPlatform.Domain\\Entities\\ExecutionJob.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAywAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T10:11:00.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Application\\Interfaces\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "..\\TradingPlatform.Application\\Interfaces\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Application\\Interfaces\\IOrderRepository.cs",
+              "RelativeToolTip": "..\\TradingPlatform.Application\\Interfaces\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T10:04:07.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SqlExecutionQueue.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Infrastructure\\Queue\\SqlExecutionQueue.cs",
+              "RelativeDocumentMoniker": "..\\TradingPlatform.Infrastructure\\Queue\\SqlExecutionQueue.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Infrastructure\\Queue\\SqlExecutionQueue.cs",
+              "RelativeToolTip": "..\\TradingPlatform.Infrastructure\\Queue\\SqlExecutionQueue.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T08:25:36.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "InMemoryExecutionQueue.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Infrastructure\\Queue\\InMemoryExecutionQueue.cs",
+              "RelativeDocumentMoniker": "..\\TradingPlatform.Infrastructure\\Queue\\InMemoryExecutionQueue.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Infrastructure\\Queue\\InMemoryExecutionQueue.cs",
+              "RelativeToolTip": "..\\TradingPlatform.Infrastructure\\Queue\\InMemoryExecutionQueue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T08:40:38.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IExecutionJobWriter.cs",
+              "DocumentMoniker": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Application\\Interfaces\\IExecutionJobWriter.cs",
+              "RelativeDocumentMoniker": "..\\TradingPlatform.Application\\Interfaces\\IExecutionJobWriter.cs",
+              "ToolTip": "C:\\Users\\CharanAmuru\\source\\repos\\TradingPlatform.Application\\Interfaces\\IExecutionJobWriter.cs",
+              "RelativeToolTip": "..\\TradingPlatform.Application\\Interfaces\\IExecutionJobWriter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T08:18:55.061Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

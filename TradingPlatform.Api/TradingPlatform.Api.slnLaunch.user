@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "TradingPlatform.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\TradingPlatform.Worker\\TradingPlatform.Worker.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
